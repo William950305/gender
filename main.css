@@ -1,0 +1,72 @@
+img{
+    width: 100px;
+}
+
+.head{
+    padding-left: 10px
+}
+
+@media screen and (min-width:400px) {
+    img{
+        width: 200px;
+    }
+
+    .head{
+        padding-left: 20px
+    }
+}
+
+
+@media screen and (min-width:600px) {
+    img{
+        width: 400px;
+    }
+
+    .head{
+        padding-left: 20px
+    }
+}
+
+body{
+    font-family: "Microsoft JhengHei" !important;
+}
+
+html{
+    height: 100%;
+}
+
+div a:hover{
+    background-color:greenyellow;
+}
+
+div a{
+    color:green;
+}
+
+li a{
+    color:white;
+}
+
+div ul{
+    padding-left:30px;    
+    color:white;
+}
+
+div ul li a:hover{
+    background-color:gray;
+}
+
+p{
+    font-size:large;
+    text-align:justify;
+}
+
+.div{
+    margin-right:10px;
+    margin-bottom: 10000px;
+    float:left;background-color:green;
+    border:1px solid gray;
+    width:140px;
+    height:250px;
+}
+
