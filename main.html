@@ -10,15 +10,15 @@
     </head>
         <link rel="stylesheet" href="main.css" />
     <body>
-        <div class="head" style="color:white; background-color:orange; border:1px solid gray; height:85px; margin:10px 0px 10px 0px; padding-left: 20px; ">
+        <div class="head head-animation">
             <h1>我們需要怎樣的性教育</h1>
         </div>
         <div class="div">
             <ul>
                 <li style="width:32px;"><a href="main.html">簡介</a></li>
-                <li style="width:80px;"><a href="property.html">依藥性分類</a></li>
-                <li style="width:80px;"><a href="flavor.html">依藥味分類</a></li>
-                <li style="width:80px;"><a href="effect.html">依歸經分類</a></li>
+                <li style="width:80px;"><a href="property.html">反面的立場</a></li>
+                <li style="width:80px;"><a href="flavor.html">性教育必要</a></li>
+                <li style="width:80px;"><a href="effect.html">性教育目標</a></li>
             </ul>
             <br/>
             <br/>
@@ -26,69 +26,47 @@
                 <li style="width:64px;"><a href="about_us.html">關於我們</a></li>
             </ul>
         </div>
-        <h2>
-            簡介
-        </h2>
 
-        <p>
-            &emsp;&emsp;我們在生活中很常在路邊看到雜草，但你有沒有想過，這些雜草是否有可能有功效，搞不好哪天這些雜草能救你一命。不過也不是所有雜草都能吃，因為有些有毒。本網頁能教你如何分辨及食用生活中常見的中藥草。
-        </p>
+        <div class="content">
+            <h2>
+                簡介
+            </h2>
 
-        <span>
-            <a href="中草藥/狗尾草.jpg"><img src="中草藥/狗尾草.jpg"/></a>
-        </span>
-
-        <span>
             <p>
-                (這個是狗尾草)
+                &emsp;&emsp;性教育一直以來都是社會中一個重要而敏感的議題。隨著時代的進步和價值觀的改變，對於性教育的需求和期望也在不斷演變。在這份報告中，我們將探討一個關鍵問題：「我們需要怎樣的性教育？」我們將進一步討論性教育的目標、內容和方法，以及如何為不同年齡段的學生提供適當的性教育資源。
             </p>
-        </span>
 
-        <form id="message-form">
-            <label for="name">姓名:</label>
-            <input type="text" id="name" name="name"><br><br>
-    
-            <label for="message">留言:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-    
-            <input type="submit" value="提交留言">
-        </form>
-    
-        <!-- 顯示留言 -->
-        <h2>留言列表</h2>
-        <div id="message-list">
-            <!-- 留言將會在這裡動態生成 -->
-        </div>
-    
-        <script>
-            // 留言表單提交事件處理程序
-            document.getElementById('message-form').addEventListener('submit', function(event) {
-                event.preventDefault(); // 阻止表單提交的默認行為
-    
-                // 獲取姓名和留言內容
-                var nameInput = document.getElementById('name');
-                var messageInput = document.getElementById('message');
-                var name = nameInput.value;
-                var message = messageInput.value;
-    
-                // 建立新的留言元素
-                var newMessage = document.createElement('div');
-                newMessage.innerHTML = '<strong>' + name + '</strong>: ' + message;
-    
-                // 將新留言添加到留言列表中
-                var messageList = document.getElementById('message-list');
-                messageList.appendChild(newMessage);
-    
-                // 清空表單輸入
-                nameInput.value = '';
-                messageInput.value = '';
-            });
-        </script>
-        
-        <div>
             <p>
-                &emsp;
+                &emsp;&emsp;首先，我們將探討性教育的目標。性教育的目的之一是提供學生有關身體和性健康的基礎知識，包括生理和解剖學知識、生殖健康和避孕方法等。同時，性教育也應該促進性別平等、尊重和同意的價值觀，教導學生建立健康的關係和溝通技巧。
             </p>
+
+            <p>
+                &emsp;&emsp;其次，我們將探討性教育的內容。這包括性別認同和性取向的理解、性與感情的關係、性別角色的探索以及避免性侵犯和虐待等重要主題。我們將討論如何在性教育中提供全面而包容的內容，以確保所有學生都能夠受益並理解性的多樣性。
+            </p>
+
+            <p>
+                &emsp;&emsp;最後，我們將探討性教育的方法。有效的性教育應該是全面的、科學的、客觀的，並且能夠適應不同年齡和發展階段的學生。我們將研究不同的教學策略，例如討論小組、角色扮演、多媒體資源和線上學習平台等，以提供互動和有效的學習體驗。
+            </p>
+
+            <p>
+                &emsp;&emsp;通過這份報告，我們將深入探討我們社會中現有的性教育問題，並提出針對性教育的建議和改進方案。我們希望這份報告能夠引起關注，促進有意義且包容性的性教育，以幫助年輕人建立健康、尊重和負責任的性行為觀念。
+            </p>
+
+            <span>
+                <a href="中草藥/狗尾草.jpg"><img src="中草藥/狗尾草.jpg"/></a>
+            </span>
+
+            <span>
+                <p>
+                    (這個是狗尾草)
+                </p>
+            </span>
+            
+            <div>
+                <p>
+                    &emsp;
+                </p>
+            </div>
         </div>
     </body>
 </html>
